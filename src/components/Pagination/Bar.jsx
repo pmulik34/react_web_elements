@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { MAX, MIN } from "../constants/constants";
+import { MAX, MIN } from "../../constants/constants";
 
 const Bar = ({ value = 0, onComplete}) => {
   const [percent, setPercent] = useState(value);
